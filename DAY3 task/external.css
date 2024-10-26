@@ -1,0 +1,44 @@
+
+.main{
+    background-color: darkkhaki;
+}
+
+.header{
+    background: linear-gradient(orange, brown, black);
+    color: white;
+    text-decoration: solid underline white;
+    text-align: center;
+    padding: 20px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px;
+    gap: 5px 5px;
+    /* align-content: 50px; */
+    
+}
+
+.body1{
+    border: 2px solid antiquewhite;
+    text-align: center;
+    padding:10px 10px;
+    background-color: cadetblue;
+   
+}
+
+
+.class{
+    font-size: larger;
+  text-decoration: solid black underline;
+}
+.footer{
+    margin: 10px;
+    background: linear-gradient(rgba(132, 37, 77, 0.779),orange,brown);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+}
