@@ -1,0 +1,47 @@
+#parentcontainer{
+    /* background-color: black; */
+    display: flex;
+    flex-basis: 10;
+    border: 2px solid red;
+    flex-wrap: wrap;
+   
+}
+
+.p{
+    text-align: center;
+    width: 33.33%;
+    height: 30px;
+    align-content: center;
+    flex-grow: 1;
+ 
+   
+  
+}
+.order1{
+
+background-color: antiquewhite;
+order: 3;
+/* flex-grow: 1; */
+
+
+}
+
+.order2{
+
+background-color: cadetblue;
+order: 1;
+
+}
+
+.order3{
+    order: 2;
+background-color: blueviolet;
+/* flex-grow: 0.2; */
+flex-basis: 10;
+
+}
+
+.order4{
+background-color: chocolate;    
+/* flex-grow: 1; */
+}
